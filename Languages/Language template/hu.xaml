@@ -1,0 +1,126 @@
+﻿<!--Author: Antecer-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Main window title bar-->
+    <sys:String x:Key="MainTitle">AmusingKeypadPro</sys:String>
+    <sys:String x:Key="KeyCfgs" xml:space="preserve"> KeyCfgs </sys:String>
+    <sys:String x:Key="KeyLeds" xml:space="preserve"> KeyLeds </sys:String>
+    <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
+
+    <!--Application upgrade tips-->
+    <sys:String x:Key="NewReleaseApp">The new version of the application is published, do you want updated?</sys:String>
+    <sys:String x:Key="OldAppVersion">Old App Version:</sys:String>
+    <sys:String x:Key="NewAppVersion">New App Version:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">App Update Success!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">App Update Failed!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">Failed to get application update list:</sys:String>
+
+    <!--Device connection status-->
+    <sys:String x:Key="NoLink" xml:space="preserve">No Device Link !</sys:String>
+    <sys:String x:Key="Linked" xml:space="preserve">Device Linking...</sys:String>
+    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String>
+    <sys:String x:Key="ReBoot">Reboot device...</sys:String>
+
+    <!--Device function name-->
+    <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
+    <sys:String x:Key="AlwaysOFF">AlwaysOFF</sys:String>
+    <sys:String x:Key="AlwaysON">AlwaysON</sys:String>
+    <sys:String x:Key="PressON">PressON</sys:String>
+    <sys:String x:Key="PressOFF">PressOFF</sys:String>
+    <sys:String x:Key="ColorTable">ColorTable</sys:String>
+    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String>
+    <sys:String x:Key="AnyPressON">AnyPressON</sys:String>
+    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String>
+
+    <!--Application settings content-->
+    <sys:String x:Key="FactoryAll">Factory All</sys:String>
+    <sys:String x:Key="FactoryKey">Factory Key</sys:String>
+    <sys:String x:Key="FactoryLed">Factory Led</sys:String>
+    <sys:String x:Key="FactoryRgb">Factory Rgb</sys:String>
+    <sys:String x:Key="FactoryKps">Factory Kps</sys:String>
+    <sys:String x:Key="MenuSystem">System Settings</sys:String>
+    <sys:String x:Key="LinkCheck">Connection Check</sys:String>
+    <sys:String x:Key="EnableLed">Enable Led Features</sys:String>
+    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String>
+    <sys:String x:Key="MenuUpdate">Rom Update</sys:String>
+    <sys:String x:Key="ReleaseVer">Release Version:</sys:String>
+    <sys:String x:Key="LocalVer">Local Version:</sys:String>
+    <sys:String x:Key="OnlineUpdate">Online Update:</sys:String>
+    <sys:String x:Key="UpdateSelected">Update To Selected Version</sys:String>
+    <sys:String x:Key="UpdateLocalFile">Update From Local File</sys:String>
+    <sys:String x:Key="LocalUpdate">Local Update:</sys:String>
+    <sys:String x:Key="FirmwareLoaded">Firmware loaded, start writing?</sys:String>
+    <sys:String x:Key="BrokenFile">The file is damaged or incomplete!</sys:String>
+    <sys:String x:Key="MenuInfo">About</sys:String>
+    <sys:String x:Key="SoftVer">Software Version:</sys:String>
+    <sys:String x:Key="DeviceVer">Device Version:</sys:String>
+    <sys:String x:Key="DeviceID">Device ID:</sys:String>
+    <sys:String x:Key="Issue">Report BUG:</sys:String>
+    <sys:String x:Key="Contact">Contact:</sys:String>
+
+    <!--Firmware update information-->
+    <sys:String x:Key="Connected">Connected device</sys:String>
+    <sys:String x:Key="DeviceError">Device type verification failed!</sys:String>
+    <sys:String x:Key="DeviceIdFail">Device ID verification failed!</sys:String>
+    <sys:String x:Key="FlashWipe">Flash Wipe Success!</sys:String>
+    <sys:String x:Key="FlashWrite">Flash Write Success!</sys:String>
+    <sys:String x:Key="FlashVerify">Flash Verify Success!</sys:String>
+    <sys:String x:Key="CmdSuccess">Run command success!</sys:String>
+    <sys:String x:Key="CmdTimeOut">Run command timeout!</sys:String>
+    <sys:String x:Key="CmdRunError">Run command error!</sys:String>
+    <sys:String x:Key="CmdAddrError">Command address error!</sys:String>
+    <sys:String x:Key="CmdLenError">Command length error!</sys:String>
+    <sys:String x:Key="CmdError">Command Error!</sys:String>
+    <sys:String x:Key="VerifyError">Data Verify Error!</sys:String>
+    <sys:String x:Key="OtherError">Unknown error, operation failed!</sys:String>
+    <sys:String x:Key="FirmwareIsNull">No Firmware Loaded!</sys:String>
+    <sys:String x:Key="RomUpdateStart">Firmware Update Start...</sys:String>
+    <sys:String x:Key="RomUpdateSuccess">Firmware Update Successs!</sys:String>
+    <sys:String x:Key="WriterProgressTitle">Firmware updating...</sys:String>
+    <sys:String x:Key="WriterProgressFine">Firmware udate success!</sys:String>
+    <sys:String x:Key="WriterProgressFail">Firmware udate failed!</sys:String>
+
+    <!--Keyboard settings-->
+    <sys:String x:Key="NextTrack" xml:space="preserve">Next&#xA;Track</sys:String>
+    <sys:String x:Key="PrevTrack" xml:space="preserve">Prev&#xA;Track</sys:String>
+    <sys:String x:Key="Stop" xml:space="preserve">Stop</sys:String>
+    <sys:String x:Key="PlayPause" xml:space="preserve">Play&#xA;Pause</sys:String>
+    <sys:String x:Key="Mute" xml:space="preserve">Mute</sys:String>
+    <sys:String x:Key="VolumeUp" xml:space="preserve">VolUp</sys:String>
+    <sys:String x:Key="VolumeDown" xml:space="preserve">VolDn</sys:String>
+    <sys:String x:Key="BassUp" xml:space="preserve">Bass&#xA;Up</sys:String>
+    <sys:String x:Key="BassDown" xml:space="preserve">Bass&#xA;Down</sys:String>
+    <sys:String x:Key="TrebleUp" xml:space="preserve">Treble&#xA;Up</sys:String>
+    <sys:String x:Key="TrebleDown" xml:space="preserve">Treble&#xA;Down</sys:String>
+    <sys:String x:Key="MediaSelect" xml:space="preserve">Media</sys:String>
+    <sys:String x:Key="Mail" xml:space="preserve">Mail</sys:String>
+    <sys:String x:Key="Calculator" xml:space="preserve">Calc</sys:String>
+    <sys:String x:Key="MyComputer" xml:space="preserve">MyPC</sys:String>
+    <sys:String x:Key="wwwSearch" xml:space="preserve">WWW&#xA;Search</sys:String>
+    <sys:String x:Key="wwwHome" xml:space="preserve">WWW&#xA;Home</sys:String>
+    <sys:String x:Key="wwwFavorites" xml:space="preserve">WWW&#xA;Favs</sys:String>
+    <sys:String x:Key="MouseL-Btn" xml:space="preserve">Mouse&#xA;L-Btn</sys:String>
+    <sys:String x:Key="MouseM-Btn" xml:space="preserve">Mouse&#xA;M-Btn</sys:String>
+    <sys:String x:Key="MouseR-Btn" xml:space="preserve">Mouse&#xA;R-Btn</sys:String>
+    <sys:String x:Key="WheelUp" xml:space="preserve">Wheel↑</sys:String>
+    <sys:String x:Key="WheelDown" xml:space="preserve">Wheel↓</sys:String>
+    <sys:String x:Key="SetPoint" xml:space="preserve">Select&#xA;Point</sys:String>
+    <sys:String x:Key="ClrPoint" xml:space="preserve">Clear&#xA;Point</sys:String>
+    <sys:String x:Key="PopupText" xml:space="preserve">
+Key set information:
+  Left-click to select, Right-click to accept !
+Point set information:
+  Left-Down on "SelectPoint" then move Mouse to select,
+  Left-Up to selected Point !
+</sys:String>
+    <sys:String x:Key="TipPoint" xml:space="preserve">This mouse points applies only to the current monitor !</sys:String>
+
+    <!--Led settings-->
+    <sys:String x:Key="Add">Append</sys:String>
+    <sys:String x:Key="Ins">Insert</sys:String>
+    <sys:String x:Key="Del">Delete</sys:String>
+    <sys:String x:Key="Clr">Clear</sys:String>
+    <sys:String x:Key="InstantMode">InstantMode</sys:String>
+</ResourceDictionary>
