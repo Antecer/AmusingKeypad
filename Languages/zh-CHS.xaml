@@ -1,0 +1,127 @@
+﻿<!--Author: Antecer-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--主窗口标题栏-->
+    <sys:String x:Key="MainTitle">AmusingKeypadPro</sys:String>
+    <sys:String x:Key="KeyCfgs" xml:space="preserve"> 按键设置 </sys:String>
+    <sys:String x:Key="KeyLeds" xml:space="preserve"> 按键灯光 </sys:String>
+    <sys:String x:Key="BackLeds" xml:space="preserve"> 背景灯光 </sys:String>
+
+    <!--应用程序升级提示-->
+    <sys:String x:Key="NewReleaseApp">应用程序的新版本已发布,是否要更新?</sys:String>
+    <sys:String x:Key="OldAppVersion">当前软件版本:</sys:String>
+    <sys:String x:Key="NewAppVersion">最新软件版本:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">应用程序更新成功!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">应用程序更新失败!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">获取应用程序更新列表失败!</sys:String>
+    
+    <!--设备连接状态-->
+    <sys:String x:Key="NoLink" xml:space="preserve">设备未连接!</sys:String>
+    <sys:String x:Key="Linked" xml:space="preserve">设备连接中...</sys:String>
+    <sys:String x:Key="ReadyToIAP">准备引导程序...</sys:String>
+    <sys:String x:Key="ReBoot">重启设备...</sys:String>
+
+    <!--设备功能名称-->
+    <sys:String x:Key="KeyDebounce">按键防抖:</sys:String>
+    <sys:String x:Key="AlwaysOFF">一直不亮</sys:String>
+    <sys:String x:Key="AlwaysON">一直点亮</sys:String>
+    <sys:String x:Key="PressON">按下点亮</sys:String>
+    <sys:String x:Key="PressOFF">按下不亮</sys:String>
+    <sys:String x:Key="ColorTable">循环色表</sys:String>
+    <sys:String x:Key="PressFreqColor">频率色表</sys:String>
+    <sys:String x:Key="AnyPressON">任意键按下点亮</sys:String>
+    <sys:String x:Key="AnyPressOFF">任意键按下不亮</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">全键点击频率色表</sys:String>
+
+    <!--应用程序设置内容-->
+    <sys:String x:Key="FactoryKey">重置按键设置</sys:String>
+    <sys:String x:Key="FactoryLed">重置灯光设置</sys:String>
+    <sys:String x:Key="FactoryRgb">重置色表数据</sys:String>
+    <sys:String x:Key="FactoryKps">重置KPS设置</sys:String>
+    <sys:String x:Key="FactoryAll">重置所有设置</sys:String>
+    <sys:String x:Key="MenuSystem">系统管理</sys:String>
+    <sys:String x:Key="LinkCheck">USB接入检测</sys:String>
+    <sys:String x:Key="EnableLed">启用灯光功能</sys:String>
+    <sys:String x:Key="EnableIAP">启用外部引导功能</sys:String>
+    <sys:String x:Key="MenuUpdate">固件升级</sys:String>
+    <sys:String x:Key="ReleaseVer">发布版本:</sys:String>
+    <sys:String x:Key="LocalVer">本地版本:</sys:String>
+    <sys:String x:Key="OnlineUpdate">在线升级:</sys:String>
+    <sys:String x:Key="UpdateSelected">升级到选中的版本</sys:String>
+    <sys:String x:Key="UpdateLocalFile">使用本地固件升级</sys:String>
+    <sys:String x:Key="LocalUpdate">离线升级:</sys:String>
+    <sys:String x:Key="FirmwareLoaded">固件已加载, 是否开始更新?</sys:String>
+    <sys:String x:Key="BrokenFile">该文件已损坏或不完整!</sys:String>
+    <sys:String x:Key="MenuInfo">关于</sys:String>
+    <sys:String x:Key="SoftVer">软件版本:</sys:String>
+    <sys:String x:Key="DeviceVer">设备版本:</sys:String>
+    <sys:String x:Key="DeviceID">设备编码:</sys:String>
+    <sys:String x:Key="Issue">问题反馈:</sys:String>
+    <sys:String x:Key="Contact">联系作者:</sys:String>
+
+    <!--固件升级信息-->
+    <sys:String x:Key="Connected">已连接到设备</sys:String>
+    <sys:String x:Key="DeviceError">设备类型验证失败!</sys:String>
+    <sys:String x:Key="DeviceIdFail">设备编码验证失败!</sys:String>
+    <sys:String x:Key="FlashWipe">Flash擦除完成!</sys:String>
+    <sys:String x:Key="FlashWrite">Flash写入完成!</sys:String>
+    <sys:String x:Key="FlashVerify">Flash校验完成!</sys:String>
+    <sys:String x:Key="CmdSuccess">执行命令成功!</sys:String>
+    <sys:String x:Key="CmdTimeOut">执行命令超时!</sys:String>
+    <sys:String x:Key="CmdRunError">执行命令出错!</sys:String>
+    <sys:String x:Key="CmdAddrError">操作地址错误!</sys:String>
+    <sys:String x:Key="CmdLenError">数据长度错误!</sys:String>
+    <sys:String x:Key="CmdError">未知命令!</sys:String>
+    <sys:String x:Key="VerifyError">数据校验失败!</sys:String>
+    <sys:String x:Key="OtherError">未知错误,操作失败!</sys:String>
+    <sys:String x:Key="FirmwareIsNull">未加载固件文件!</sys:String>
+    <sys:String x:Key="RomUpdateStart">固件更新启动...</sys:String>
+    <sys:String x:Key="RomUpdateSuccess">固件升级完成!</sys:String>
+    <sys:String x:Key="WriterProgressTitle">固件更新中...</sys:String>
+    <sys:String x:Key="WriterProgressFine">固件更新成功!</sys:String>
+    <sys:String x:Key="WriterProgressFail">固件更新失败!</sys:String>
+
+    <!--键盘设置-->
+    <sys:String x:Key="NextTrack" xml:space="preserve">下一曲</sys:String>
+    <sys:String x:Key="PrevTrack" xml:space="preserve">上一曲</sys:String>
+    <sys:String x:Key="Stop" xml:space="preserve">停止</sys:String>
+    <sys:String x:Key="PlayPause" xml:space="preserve">播放&#xA;暂停</sys:String>
+    <sys:String x:Key="Mute" xml:space="preserve">静音</sys:String>
+    <sys:String x:Key="VolumeUp" xml:space="preserve">音量+</sys:String>
+    <sys:String x:Key="VolumeDown" xml:space="preserve">音量-</sys:String>
+    <sys:String x:Key="BassUp" xml:space="preserve">低音+</sys:String>
+    <sys:String x:Key="BassDown" xml:space="preserve">低音-</sys:String>
+    <sys:String x:Key="TrebleUp" xml:space="preserve">高音+</sys:String>
+    <sys:String x:Key="TrebleDown" xml:space="preserve">高音-</sys:String>
+    <sys:String x:Key="MediaSelect" xml:space="preserve">播放器</sys:String>
+    <sys:String x:Key="Mail" xml:space="preserve">邮件</sys:String>
+    <sys:String x:Key="Calculator" xml:space="preserve">计算器</sys:String>
+    <sys:String x:Key="MyComputer" xml:space="preserve">此电脑</sys:String>
+    <sys:String x:Key="wwwSearch" xml:space="preserve">网络&#xA;搜索</sys:String>
+    <sys:String x:Key="wwwHome" xml:space="preserve">网络&#xA;主页</sys:String>
+    <sys:String x:Key="wwwFavorites" xml:space="preserve">网络&#xA;收藏夹</sys:String>
+    <sys:String x:Key="MouseL-Btn" xml:space="preserve">鼠标&#xA;左键</sys:String>
+    <sys:String x:Key="MouseM-Btn" xml:space="preserve">鼠标&#xA;中键</sys:String>
+    <sys:String x:Key="MouseR-Btn" xml:space="preserve">鼠标&#xA;右键</sys:String>
+    <sys:String x:Key="WheelUp" xml:space="preserve">滚轮上滑</sys:String>
+    <sys:String x:Key="WheelDown" xml:space="preserve">滚轮下滑</sys:String>
+    <sys:String x:Key="SetPoint" xml:space="preserve">设置&#xA;指针</sys:String>
+    <sys:String x:Key="ClrPoint" xml:space="preserve">禁用&#xA;指针</sys:String>
+    <sys:String x:Key="PopupText" xml:space="preserve">
+按键设置说明：
+　　鼠标左键选择，鼠标右键确认!
+坐标设置说明：
+　　鼠标左键按下“设置指针”并移动鼠标选择坐标，
+　　鼠标左键释放以确认坐标选择。
+</sys:String>
+    <sys:String x:Key="TipPoint" xml:space="preserve">这个坐标仅适用于当前的显示器!</sys:String>
+
+    <!--灯光设置-->
+    <sys:String x:Key="Add">添加</sys:String>
+    <sys:String x:Key="Ins">插入</sys:String>
+    <sys:String x:Key="Del">删除</sys:String>
+    <sys:String x:Key="Clr">清空</sys:String>
+    <sys:String x:Key="InstantMode">实时模式</sys:String>
+
+</ResourceDictionary>

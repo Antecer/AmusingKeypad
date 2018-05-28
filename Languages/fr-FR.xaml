@@ -3,7 +3,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="en.xaml"/>
+        <ResourceDictionary Source="fr.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
 </ResourceDictionary>
