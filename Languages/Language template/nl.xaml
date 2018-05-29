@@ -19,7 +19,7 @@
     <!--Device connection status-->
     <sys:String x:Key="NoLink" xml:space="preserve">Het apparaat is niet aangesloten!</sys:String>
     <sys:String x:Key="Linked" xml:space="preserve">Het apparaat is aan het koppelen...</sys:String>
-    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String> <!-- What is IAP?? -->
+    <sys:String x:Key="ReadyToIAP">Klaar voor IAP...</sys:String>
     <sys:String x:Key="ReBoot">Overnieuw opstarten...</sys:String>
 
     <!--Device function name-->
@@ -29,21 +29,21 @@
     <sys:String x:Key="PressON">Druk op ON</sys:String>
     <sys:String x:Key="PressOFF">Druk op OFF</sys:String>
     <sys:String x:Key="ColorTable">Kleurtabel</sys:String>
-    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String> <!-- Explain? -->
-    <sys:String x:Key="AnyPressON">AnyPressON</sys:String> <!-- Explain? -->
-    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String> <!-- Explain? -->
-    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String> <!-- Explain? -->
+    <sys:String x:Key="PressFreqColor">Geef verschillende kleuren weer op basis van de kliksnelheid.</sys:String>
+    <sys:String x:Key="AnyPressON">Geef licht weer wanneer een toets is ingedrukt.</sys:String>
+    <sys:String x:Key="AnyPressOFF">Geef licht weer wanneer een toets niet is ingedrukt.</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">Geef verschillende kleuren weer gebaseerd op de kliksnelheid van alle toetsen.</sys:String>
 
     <!--Application settings content-->
-    <sys:String x:Key="FactoryAll">Factory All</sys:String><!-- Explain? -->
-    <sys:String x:Key="FactoryKey">Factory Key</sys:String><!-- Explain? -->
-    <sys:String x:Key="FactoryLed">Factory Led</sys:String><!-- Explain? -->
-    <sys:String x:Key="FactoryRgb">Factory Rgb</sys:String><!-- Explain? -->
-    <sys:String x:Key="FactoryKps">Factory Kps</sys:String><!-- Explain? -->
+    <sys:String x:Key="FactoryAll">Alles terug zetten naar fabrieksinstellingen.</sys:String>
+    <sys:String x:Key="FactoryKey">Toetsinstellingen terug zetten naar fabrieksinstellingen.</sys:String>
+    <sys:String x:Key="FactoryLed">Led-instellingen terug zetten naar fabrieksinstellingen.</sys:String>
+    <sys:String x:Key="FactoryRgb">Rgb-instellingen terug zetten naar fabrieksinstellingen.</sys:String>
+    <sys:String x:Key="FactoryKps">Kps-sinstellingen terug zetten naar fabrieksinstellingen.</sys:String>
     <sys:String x:Key="MenuSystem">Systeem Settings</sys:String>
     <sys:String x:Key="LinkCheck">Connectie Check</sys:String>
-    <sys:String x:Key="EnableLed">Enable Led features</sys:String><!-- Not sure how to translate: features to dutch, needs a other word for it -->
-    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String><!-- What is IAP? -->
+    <sys:String x:Key="EnableLed">Activeer Led toepassingen</sys:String>
+    <sys:String x:Key="EnableIAP">Activeer externe IAP</sys:String>
     <sys:String x:Key="MenuUpdate">Rom Update</sys:String>
     <sys:String x:Key="ReleaseVer">Release Versie:</sys:String>
     <sys:String x:Key="LocalVer">Lokale Versie:</sys:String>
