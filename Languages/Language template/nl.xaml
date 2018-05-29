@@ -35,11 +35,11 @@
     <sys:String x:Key="AnyPressFreqColor">Geef verschillende kleuren weer gebaseerd op de kliksnelheid van alle toetsen.</sys:String>
 
     <!--Application settings content-->
-    <sys:String x:Key="FactoryAll">Alles terug zetten naar fabrieksinstellingen.</sys:String>
-    <sys:String x:Key="FactoryKey">Toetsinstellingen terug zetten naar fabrieksinstellingen.</sys:String>
-    <sys:String x:Key="FactoryLed">Led-instellingen terug zetten naar fabrieksinstellingen.</sys:String>
-    <sys:String x:Key="FactoryRgb">Rgb-instellingen terug zetten naar fabrieksinstellingen.</sys:String>
-    <sys:String x:Key="FactoryKps">Kps-sinstellingen terug zetten naar fabrieksinstellingen.</sys:String>
+    <sys:String x:Key="FactoryAll">Alles terugzetten.</sys:String>
+    <sys:String x:Key="FactoryKey">Toetsinstellingen terugzetten.</sys:String>
+    <sys:String x:Key="FactoryLed">Led-instellingen terugzetten.</sys:String>
+    <sys:String x:Key="FactoryRgb">Rgb-instellingen terugzetten.</sys:String>
+    <sys:String x:Key="FactoryKps">Kps-instellingen terugzetten.</sys:String>
     <sys:String x:Key="MenuSystem">Systeem Settings</sys:String>
     <sys:String x:Key="LinkCheck">Connectie Check</sys:String>
     <sys:String x:Key="EnableLed">Activeer Led toepassingen</sys:String>
