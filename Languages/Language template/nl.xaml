@@ -1,4 +1,4 @@
-﻿<!--Author: Antecer-->
+<!--Author: Antecer, metalglove-->
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
@@ -9,47 +9,47 @@
     <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
 
     <!--Application upgrade tips-->
-    <sys:String x:Key="NewReleaseApp">The new version of the application is published, do you want updated?</sys:String>
-    <sys:String x:Key="OldAppVersion">Old App Version:</sys:String>
-    <sys:String x:Key="NewAppVersion">New App Version:</sys:String>
-    <sys:String x:Key="AppUpdateSuccess">App Update Success!</sys:String>
-    <sys:String x:Key="AppUpdateFailed">App Update Failed!</sys:String>
-    <sys:String x:Key="GetAppVerListFail">Failed to get application update list:</sys:String>
+    <sys:String x:Key="NewReleaseApp">De nieuwste versie van de applicatie is beschikbaar, wil je updaten?</sys:String>
+    <sys:String x:Key="OldAppVersion">Oude applicatie versie:</sys:String>
+    <sys:String x:Key="NewAppVersion">Nieuwe applicatie versie:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">De update is succesvol!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">De update is gefaald!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">Het is niet gelukt om de update lijst op te halen:</sys:String>
 
     <!--Device connection status-->
-    <sys:String x:Key="NoLink" xml:space="preserve">No Device Link !</sys:String>
-    <sys:String x:Key="Linked" xml:space="preserve">Device Linking...</sys:String>
-    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String>
-    <sys:String x:Key="ReBoot">Reboot device...</sys:String>
+    <sys:String x:Key="NoLink" xml:space="preserve">Het apparaat is niet aangesloten!</sys:String>
+    <sys:String x:Key="Linked" xml:space="preserve">Het apparaat is aan het koppelen...</sys:String>
+    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String> <!-- What is IAP?? -->
+    <sys:String x:Key="ReBoot">Overnieuw opstarten...</sys:String>
 
     <!--Device function name-->
     <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
-    <sys:String x:Key="AlwaysOFF">AlwaysOFF</sys:String>
-    <sys:String x:Key="AlwaysON">AlwaysON</sys:String>
-    <sys:String x:Key="PressON">PressON</sys:String>
-    <sys:String x:Key="PressOFF">PressOFF</sys:String>
-    <sys:String x:Key="ColorTable">ColorTable</sys:String>
-    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String>
-    <sys:String x:Key="AnyPressON">AnyPressON</sys:String>
-    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String>
-    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String>
+    <sys:String x:Key="AlwaysOFF">Altijd uit</sys:String>
+    <sys:String x:Key="AlwaysON">Altijd aan</sys:String>
+    <sys:String x:Key="PressON">Druk op ON</sys:String>
+    <sys:String x:Key="PressOFF">Druk op OFF</sys:String>
+    <sys:String x:Key="ColorTable">Kleurtabel</sys:String>
+    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String> <!-- Explain? -->
+    <sys:String x:Key="AnyPressON">AnyPressON</sys:String> <!-- Explain? -->
+    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String> <!-- Explain? -->
+    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String> <!-- Explain? -->
 
     <!--Application settings content-->
-    <sys:String x:Key="FactoryAll">Factory All</sys:String>
-    <sys:String x:Key="FactoryKey">Factory Key</sys:String>
-    <sys:String x:Key="FactoryLed">Factory Led</sys:String>
-    <sys:String x:Key="FactoryRgb">Factory Rgb</sys:String>
-    <sys:String x:Key="FactoryKps">Factory Kps</sys:String>
-    <sys:String x:Key="MenuSystem">System Settings</sys:String>
-    <sys:String x:Key="LinkCheck">Connection Check</sys:String>
-    <sys:String x:Key="EnableLed">Enable Led Features</sys:String>
-    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String>
+    <sys:String x:Key="FactoryAll">Factory All</sys:String><!-- Explain? -->
+    <sys:String x:Key="FactoryKey">Factory Key</sys:String><!-- Explain? -->
+    <sys:String x:Key="FactoryLed">Factory Led</sys:String><!-- Explain? -->
+    <sys:String x:Key="FactoryRgb">Factory Rgb</sys:String><!-- Explain? -->
+    <sys:String x:Key="FactoryKps">Factory Kps</sys:String><!-- Explain? -->
+    <sys:String x:Key="MenuSystem">Systeem Settings</sys:String>
+    <sys:String x:Key="LinkCheck">Connectie Check</sys:String>
+    <sys:String x:Key="EnableLed">Enable Led features</sys:String><!-- not sure how to translate: features to dutch, needs a other word for it -->
+    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String><!-- What is IAP? -->
     <sys:String x:Key="MenuUpdate">Rom Update</sys:String>
-    <sys:String x:Key="ReleaseVer">Release Version:</sys:String>
-    <sys:String x:Key="LocalVer">Local Version:</sys:String>
+    <sys:String x:Key="ReleaseVer">Release Versie:</sys:String>
+    <sys:String x:Key="LocalVer">Lokale Versie:</sys:String>
     <sys:String x:Key="OnlineUpdate">Online Update:</sys:String>
-    <sys:String x:Key="UpdateSelected">Update To Selected Version</sys:String>
-    <sys:String x:Key="UpdateLocalFile">Update From Local File</sys:String>
+    <sys:String x:Key="UpdateSelected">Update Naar Geslecteerde Versie</sys:String>
+    <sys:String x:Key="UpdateLocalFile">Update Van Lokale File</sys:String>
     <sys:String x:Key="LocalUpdate">Local Update:</sys:String>
     <sys:String x:Key="FirmwareLoaded">Firmware loaded, start writing?</sys:String>
     <sys:String x:Key="BrokenFile">The file is damaged or incomplete!</sys:String>
