@@ -9,9 +9,9 @@
     <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
 
     <!--Application upgrade tips-->
-    <sys:String x:Key="NewReleaseApp">De nieuwste versie van de applicatie is beschikbaar, wil je updaten?</sys:String>
-    <sys:String x:Key="OldAppVersion">Oude applicatie versie:</sys:String>
-    <sys:String x:Key="NewAppVersion">Nieuwe applicatie versie:</sys:String>
+    <sys:String x:Key="NewReleaseApp">Er is een nieuwere versie beschikbaar, wil je updaten?</sys:String>
+    <sys:String x:Key="OldAppVersion">Oude versie:</sys:String>
+    <sys:String x:Key="NewAppVersion">Nieuwe versie:</sys:String>
     <sys:String x:Key="AppUpdateSuccess">De update is succesvol!</sys:String>
     <sys:String x:Key="AppUpdateFailed">De update is gefaald!</sys:String>
     <sys:String x:Key="GetAppVerListFail">Het is niet gelukt om de update lijst op te halen:</sys:String>
@@ -26,13 +26,13 @@
     <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
     <sys:String x:Key="AlwaysOFF">Altijd uit</sys:String>
     <sys:String x:Key="AlwaysON">Altijd aan</sys:String>
-    <sys:String x:Key="PressON">Druk op ON</sys:String>
-    <sys:String x:Key="PressOFF">Druk op OFF</sys:String>
-    <sys:String x:Key="ColorTable">Kleurtabel</sys:String>
-    <sys:String x:Key="PressFreqColor">Geef verschillende kleuren weer op basis van de kliksnelheid.</sys:String>
+    <sys:String x:Key="PressON">Toets indrukken voor aan</sys:String>
+    <sys:String x:Key="PressOFF">Toets indrukken voor uit</sys:String>
+    <sys:String x:Key="ColorTable">Kleurencirkel</sys:String>
+    <sys:String x:Key="PressFreqColor">Verschillende kleuren op kliksnelheid een toets.</sys:String>
     <sys:String x:Key="AnyPressON">Geef licht weer wanneer een toets is ingedrukt.</sys:String>
     <sys:String x:Key="AnyPressOFF">Geef licht weer wanneer een toets niet is ingedrukt.</sys:String>
-    <sys:String x:Key="AnyPressFreqColor">Geef verschillende kleuren weer gebaseerd op de kliksnelheid van alle toetsen.</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">Verschillende kleuren op kliksnelheid van alle toetsen.</sys:String>
 
     <!--Application settings content-->
     <sys:String x:Key="FactoryAll">Alles terugzetten.</sys:String>
@@ -48,8 +48,8 @@
     <sys:String x:Key="ReleaseVer">Release Versie:</sys:String>
     <sys:String x:Key="LocalVer">Lokale Versie:</sys:String>
     <sys:String x:Key="OnlineUpdate">Online Update:</sys:String>
-    <sys:String x:Key="UpdateSelected">Update Naar Geslecteerde Versie</sys:String>
-    <sys:String x:Key="UpdateLocalFile">Update Van Lokale File</sys:String>
+    <sys:String x:Key="UpdateSelected">Update naar geslecteerde versie</sys:String>
+    <sys:String x:Key="UpdateLocalFile">Update van lokale file</sys:String>
     <sys:String x:Key="LocalUpdate">Lokale Update:</sys:String>
     <sys:String x:Key="FirmwareLoaded">De firmware is geladen, beginnen met schrijven?</sys:String>
     <sys:String x:Key="BrokenFile">De file is beschadigd of incompleet!</sys:String>
