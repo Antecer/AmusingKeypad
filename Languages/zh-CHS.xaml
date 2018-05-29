@@ -35,11 +35,11 @@
     <sys:String x:Key="AnyPressFreqColor">全键点击频率色表</sys:String>
 
     <!--应用程序设置内容-->
+    <sys:String x:Key="FactoryAll">重置所有设置</sys:String>
     <sys:String x:Key="FactoryKey">重置按键设置</sys:String>
     <sys:String x:Key="FactoryLed">重置灯光设置</sys:String>
     <sys:String x:Key="FactoryRgb">重置色表数据</sys:String>
     <sys:String x:Key="FactoryKps">重置KPS设置</sys:String>
-    <sys:String x:Key="FactoryAll">重置所有设置</sys:String>
     <sys:String x:Key="MenuSystem">系统管理</sys:String>
     <sys:String x:Key="LinkCheck">USB接入检测</sys:String>
     <sys:String x:Key="EnableLed">启用灯光功能</sys:String>

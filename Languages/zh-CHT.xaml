@@ -35,11 +35,11 @@
     <sys:String x:Key="AnyPressFreqColor">全鍵點擊頻率色表</sys:String>
 
     <!--應用程序設置內容-->
+    <sys:String x:Key="FactoryAll">重製所有設置</sys:String>
     <sys:String x:Key="FactoryKey">重製按鍵設置</sys:String>
     <sys:String x:Key="FactoryLed">重製燈光設置</sys:String>
     <sys:String x:Key="FactoryRgb">重製色表數據</sys:String>
     <sys:String x:Key="FactoryKps">重製KPS設置</sys:String>
-    <sys:String x:Key="FactoryAll">重製所有設置</sys:String>
     <sys:String x:Key="MenuSystem">系統管理</sys:String>
     <sys:String x:Key="LinkCheck">USB接入檢測</sys:String>
     <sys:String x:Key="EnableLed">啟用燈光功能</sys:String>
