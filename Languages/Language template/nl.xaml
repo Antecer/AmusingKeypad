@@ -79,7 +79,7 @@
     <sys:String x:Key="RomUpdateStart">Firmware update gestart...</sys:String>
     <sys:String x:Key="RomUpdateSuccess">Firmware succesvol geüpdatet!</sys:String>
     <sys:String x:Key="WriterProgressTitle">Firmware is aan het updaten...</sys:String>
-    <sys:String x:Key="WriterProgressFine">Firmware succesvol geüpdatet!/sys:String>
+    <sys:String x:Key="WriterProgressFine">Firmware succesvol geüpdatet!</sys:String>
     <sys:String x:Key="WriterProgressFail">Firmware update gefaald!</sys:String>
 
     <!--Keyboard settings--> <!-- I assume keyboard does not need to be translated? -->
