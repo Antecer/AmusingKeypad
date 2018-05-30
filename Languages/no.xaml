@@ -1,0 +1,126 @@
+﻿<!--Author: Antecer-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Main window title bar-->
+    <sys:String x:Key="MainTitle">AmusingKeypadPro</sys:String>
+    <sys:String x:Key="KeyCfgs" xml:space="preserve"> KeyCfgs </sys:String>
+    <sys:String x:Key="KeyLeds" xml:space="preserve"> KeyLeds </sys:String>
+    <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
+
+    <!--Application upgrade tips-->
+    <sys:String x:Key="NewReleaseApp">En nyere versjon av applikasjonen er tilgjengelig, vil du oppdatere?</sys:String>
+    <sys:String x:Key="OldAppVersion">Din versjon:</sys:String>
+    <sys:String x:Key="NewAppVersion">Ny versjon:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">Oppdatering fullført!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">Oppdatering mislykket!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">Fikk ikke tak i applikasjonens oppdateringsliste:</sys:String>
+
+    <!--Device connection status-->
+    <sys:String x:Key="NoLink" xml:space="preserve">Enhet ikke funnet!</sys:String>
+    <sys:String x:Key="Linked" xml:space="preserve">Enhet tilkobler...</sys:String>
+    <sys:String x:Key="ReadyToIAP">Klar for IAP...</sys:String>
+    <sys:String x:Key="ReBoot">Omstarter enhet...</sys:String>
+
+    <!--Device function name-->
+    <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
+    <sys:String x:Key="AlwaysOFF">Alltid av</sys:String>
+    <sys:String x:Key="AlwaysON">Alltid på</sys:String>
+    <sys:String x:Key="PressON">PressON</sys:String>
+    <sys:String x:Key="PressOFF">PressOFF</sys:String>
+    <sys:String x:Key="ColorTable">ColorTable</sys:String>
+    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String>
+    <sys:String x:Key="AnyPressON">AnyPressON</sys:String>
+    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String>
+
+    <!--Application settings content-->
+    <sys:String x:Key="FactoryAll">Tilbakestill alt</sys:String>
+    <sys:String x:Key="FactoryKey">Tilbakestill keys</sys:String>
+    <sys:String x:Key="FactoryLed">Tilbakestill LED</sys:String>
+    <sys:String x:Key="FactoryRgb">Tilbakestill RGB</sys:String>
+    <sys:String x:Key="FactoryKps">Tilbaksetill KPS</sys:String>
+    <sys:String x:Key="MenuSystem">System Innstillinger</sys:String>
+    <sys:String x:Key="LinkCheck">Tilkoblingskontroll</sys:String>
+    <sys:String x:Key="EnableLed">Aktiver LED Funksjoner</sys:String>
+    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String>
+    <sys:String x:Key="MenuUpdate">Rom Oppdatering</sys:String>
+    <sys:String x:Key="ReleaseVer">Utgitt Versjon:</sys:String>
+    <sys:String x:Key="LocalVer">Lokal Versjon:</sys:String>
+    <sys:String x:Key="OnlineUpdate">Online Oppdatering:</sys:String>
+    <sys:String x:Key="UpdateSelected">Oppdater til valgt versjon</sys:String>
+    <sys:String x:Key="UpdateLocalFile">Oppdatering fra lokal fil</sys:String>
+    <sys:String x:Key="LocalUpdate">Lokal Oppdatering:</sys:String>
+    <sys:String x:Key="FirmwareLoaded">Fastvare lastet, start writing?</sys:String>
+    <sys:String x:Key="BrokenFile">Filen er skadet eller mangelfull!</sys:String>
+    <sys:String x:Key="MenuInfo">Om</sys:String>
+    <sys:String x:Key="SoftVer">Programvare Versjon:</sys:String>
+    <sys:String x:Key="DeviceVer">Enhet Versjon:</sys:String>
+    <sys:String x:Key="DeviceID">Enhets ID:</sys:String>
+    <sys:String x:Key="Issue">Rapporter feil:</sys:String>
+    <sys:String x:Key="Contact">Ta kontakt:</sys:String>
+
+    <!--Firmware update information-->
+    <sys:String x:Key="Connected">Tilkoblet enhet</sys:String>
+    <sys:String x:Key="DeviceError">Enhetstype bekreftelse mislyktes!</sys:String>
+    <sys:String x:Key="DeviceIdFail">Enhets-ID bekreftelse mislyktes!</sys:String>
+    <sys:String x:Key="FlashWipe">Flash Wipe Velykket!</sys:String>
+    <sys:String x:Key="FlashWrite">Flash Write Velykket!</sys:String>
+    <sys:String x:Key="FlashVerify">Flash Verify Velykket!</sys:String>
+    <sys:String x:Key="CmdSuccess">Run command success!</sys:String>
+    <sys:String x:Key="CmdTimeOut">Run command timeout!</sys:String>
+    <sys:String x:Key="CmdRunError">Run command error!</sys:String>
+    <sys:String x:Key="CmdAddrError">Command address error!</sys:String>
+    <sys:String x:Key="CmdLenError">Command length error!</sys:String>
+    <sys:String x:Key="CmdError">Command Error!</sys:String>
+    <sys:String x:Key="VerifyError">Data verifiseringsfeil!</sys:String>
+    <sys:String x:Key="OtherError">Ukjent feil, operasjon mislyktes!</sys:String>
+    <sys:String x:Key="FirmwareIsNull">Ingen programvare lastet!</sys:String>
+    <sys:String x:Key="RomUpdateStart">Programvare oppdatering starter...</sys:String>
+    <sys:String x:Key="RomUpdateSuccess">Programvare oppdatering vellykket!</sys:String>
+    <sys:String x:Key="WriterProgressTitle">Programvare oppdaterer...</sys:String>
+    <sys:String x:Key="WriterProgressFine">Programvare oppdatering vellykket!</sys:String>
+    <sys:String x:Key="WriterProgressFail">Programvare oppdatering mislyktes!</sys:String>
+
+    <!--Keyboard settings-->
+    <sys:String x:Key="NextTrack" xml:space="preserve">Next&#xA;Track</sys:String>
+    <sys:String x:Key="PrevTrack" xml:space="preserve">Prev&#xA;Track</sys:String>
+    <sys:String x:Key="Stop" xml:space="preserve">Stop</sys:String>
+    <sys:String x:Key="PlayPause" xml:space="preserve">Play&#xA;Pause</sys:String>
+    <sys:String x:Key="Mute" xml:space="preserve">Mute</sys:String>
+    <sys:String x:Key="VolumeUp" xml:space="preserve">VolUp</sys:String>
+    <sys:String x:Key="VolumeDown" xml:space="preserve">VolDn</sys:String>
+    <sys:String x:Key="BassUp" xml:space="preserve">Bass&#xA;Up</sys:String>
+    <sys:String x:Key="BassDown" xml:space="preserve">Bass&#xA;Down</sys:String>
+    <sys:String x:Key="TrebleUp" xml:space="preserve">Treble&#xA;Up</sys:String>
+    <sys:String x:Key="TrebleDown" xml:space="preserve">Treble&#xA;Down</sys:String>
+    <sys:String x:Key="MediaSelect" xml:space="preserve">Media</sys:String>
+    <sys:String x:Key="Mail" xml:space="preserve">Mail</sys:String>
+    <sys:String x:Key="Calculator" xml:space="preserve">Calc</sys:String>
+    <sys:String x:Key="MyComputer" xml:space="preserve">MyPC</sys:String>
+    <sys:String x:Key="wwwSearch" xml:space="preserve">WWW&#xA;Search</sys:String>
+    <sys:String x:Key="wwwHome" xml:space="preserve">WWW&#xA;Home</sys:String>
+    <sys:String x:Key="wwwFavorites" xml:space="preserve">WWW&#xA;Favs</sys:String>
+    <sys:String x:Key="MouseL-Btn" xml:space="preserve">Mouse&#xA;L-Btn</sys:String>
+    <sys:String x:Key="MouseM-Btn" xml:space="preserve">Mouse&#xA;M-Btn</sys:String>
+    <sys:String x:Key="MouseR-Btn" xml:space="preserve">Mouse&#xA;R-Btn</sys:String>
+    <sys:String x:Key="WheelUp" xml:space="preserve">Wheel↑</sys:String>
+    <sys:String x:Key="WheelDown" xml:space="preserve">Wheel↓</sys:String>
+    <sys:String x:Key="SetPoint" xml:space="preserve">Velg&#xA;Punkt</sys:String>
+    <sys:String x:Key="ClrPoint" xml:space="preserve">Fjern&#xA;Punkt</sys:String>
+    <sys:String x:Key="PopupText" xml:space="preserve">
+Tast valg informasjon:
+  Venstre-klikk for å velge, høyre klikk for å bekrefte!
+Punkt valg informasjon:
+  Venstre-klikk og hold "FjernPunkt",
+  Slipp venstre-klikk for å velge punkt!
+</sys:String>
+    <sys:String x:Key="TipPoint" xml:space="preserve">Dette punktet gjelder kun på den aktuelle skjermen!</sys:String>
+
+    <!--Led settings-->
+    <sys:String x:Key="Add">Legg til</sys:String>
+    <sys:String x:Key="Ins">Sett inn</sys:String>
+    <sys:String x:Key="Del">Slett</sys:String>
+    <sys:String x:Key="Clr">Fjern alt</sys:String>
+    <sys:String x:Key="InstantMode">InstantMode</sys:String>
+</ResourceDictionary>
