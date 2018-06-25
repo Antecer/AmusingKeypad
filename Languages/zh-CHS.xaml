@@ -51,6 +51,9 @@
     <sys:String x:Key="UpdateSelected">升级到选中的版本</sys:String>
     <sys:String x:Key="UpdateLocalFile">使用本地固件升级</sys:String>
     <sys:String x:Key="LocalUpdate">离线升级:</sys:String>
+    <sys:String x:Key="NowDevVer">当前固件版本:</sys:String>
+    <sys:String x:Key="NewDevVer">目标固件版本:</sys:String>
+    <sys:String x:Key="FirmwareIsSame">目标版本与当前版本相同,无需升级</sys:String>
     <sys:String x:Key="FirmwareLoaded">固件已加载, 是否开始更新?</sys:String>
     <sys:String x:Key="BrokenFile">该文件已损坏或不完整!</sys:String>
     <sys:String x:Key="MenuInfo">关于</sys:String>

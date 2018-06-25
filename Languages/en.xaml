@@ -10,7 +10,7 @@
 
     <!--Application upgrade tips-->
     <sys:String x:Key="NewReleaseApp">The new version of the application is published, do you want updated?</sys:String>
-    <sys:String x:Key="OldAppVersion">Old App Version:</sys:String>
+    <sys:String x:Key="OldAppVersion">Now App Version:</sys:String>
     <sys:String x:Key="NewAppVersion">New App Version:</sys:String>
     <sys:String x:Key="AppUpdateSuccess">App Update Success!</sys:String>
     <sys:String x:Key="AppUpdateFailed">App Update Failed!</sys:String>
@@ -51,6 +51,9 @@
     <sys:String x:Key="UpdateSelected">Update To Selected Version</sys:String>
     <sys:String x:Key="UpdateLocalFile">Update From Local File</sys:String>
     <sys:String x:Key="LocalUpdate">Local Update:</sys:String>
+    <sys:String x:Key="NowDevVer">Native Version:</sys:String>
+    <sys:String x:Key="NewDevVer">Target Version:</sys:String>
+    <sys:String x:Key="FirmwareIsSame">The same firmware version. No need to upgrade.</sys:String>
     <sys:String x:Key="FirmwareLoaded">Firmware loaded, start writing?</sys:String>
     <sys:String x:Key="BrokenFile">The file is damaged or incomplete!</sys:String>
     <sys:String x:Key="MenuInfo">About</sys:String>
