@@ -1,5 +1,7 @@
-# AmusingKeypad
+# AmusingKeypad  
+Please Download Software from new website: https://antecer.com  
 
+--------------------------------------
 **AmusingKeypad** is a special osu! Game design and development of keyboard products.
 
 **Product introduction:**
