@@ -5,6 +5,7 @@ Please Download Software from new website: https://antecer.com
 **AmusingKeypad** is a special osu! Game design and development of keyboard products.
 
 **Product introduction:**
+- **Report Rate** - It have 1000Hz report rate, and the key scan is 2000Hz.
 - **Custom Buttons** -  You can bind any number of normal key values to the same button to achieve the same input.
 - **Multimedia support** - Play,Pause,Next,Prev,Vol+,Vol-,Mute,And other keycodes.
 - **Simulate mouse** - You can use it to do some mouse work, such as Left button, right button, wheel, and absolute coordinates positioning.
